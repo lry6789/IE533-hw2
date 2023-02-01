@@ -113,12 +113,12 @@ public class PrimAlgorithm {
                 }
 
             }
-                //This adjacent point is not the parent node of i on the DFS tree, and has been visited, then there is a cycle
-		        else if (j != parent){
-                    return true;
+            //This adjacent point is not the parent node of i on the DFS tree, and has been visited, then there is a cycle
+            else if (j != parent){
+                return true;
             }
 
-            }
+        }
         return false;
     }
     //Returns true if there is a cycle in the undirected graph, otherwise returns false
