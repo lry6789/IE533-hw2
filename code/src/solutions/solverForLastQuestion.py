@@ -83,3 +83,4 @@ print("The total cost is "+str(cost))
 # nx.draw_networkx_edge_labels(G1,pos,edge_labels=labels, font_color='m') # 显示边的权值
 # nx.draw_networkx_edges(G1,pos,edgelist=T.edges,edge_color='b',width=4)  # 设置指定边的颜色
 # plt.show()
+
